@@ -29,6 +29,7 @@
   font-size: 32px;
   font-weight: 700;
   color: white;
+  cursor: pointer;
 }
 
 .logout-tab {
@@ -47,7 +48,8 @@
 /* Login Page */
 
 #login-page {
-  background-image: linear-gradient(#40a9ff, #096dd9);
+  /* background-image: linear-gradient(#40a9ff, #096dd9); */
+  background:linear-gradient(to right, #00AAFF, #00FF6C);background: linear-gradient();
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -79,9 +81,17 @@
   background-color: #3b5998;
 }
 
+.facebook:hover{
+  background-color: gray;
+}
+
 .google {
   background-color: #4285f4;
   color: white;
+}
+
+.google:hover{
+  background-color:gray;
 }
 
 #loading-container {
